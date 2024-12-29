@@ -1,0 +1,119 @@
+[Sat Dec 28 13:59:05 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 13:59:10 2024] Operation: exit, Path: N/A, Status: Success
+[Sat Dec 28 14:02:01 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:04:42 2024] Operation: slist, Path: </home/okan-umur/Desktop/jdk-11.0.24>, Status: Success
+[Sat Dec 28 14:04:49 2024] Operation: slist, Path: /home/okan-umur/Desktop/jdk-11.0.24, Status: Success
+[Sat Dec 28 14:05:13 2024] Operation: slist, Path: fortheerror, Status: Success
+[Sat Dec 28 14:09:07 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:10:16 2024] Operation: slist, Path: fortheerrorcheck, Status: Success
+[Sat Dec 28 14:10:37 2024] Operation: slist, Path: /home/okan-umur/Desktop/jdk-11.0.24, Status: Success
+[Sat Dec 28 14:13:09 2024] Operation: sremove, Path: fortheerrorcheck, Status: Success
+[Sat Dec 28 14:13:24 2024] Operation: sremove, Path: /home/okan-umur/Desktop/Project Test, Status: Success
+[Sat Dec 28 14:15:23 2024] Operation: sremove, Path: /home/okan-umur/Desktop/For_The_Remove, Status: Success
+[Sat Dec 28 14:17:03 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Copy, Status: Success
+[Sat Dec 28 14:18:57 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:22:23 2024] Operation: scopy, Path: okan-umur@okan-umur-VirtualBox:~$, Status: Success
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: okan-umur@okan-umur-VirtualBox:~/Desktop$ cd Terminal_Based_File_Manager, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: okan-umur@okan-umur-VirtualBox:~/Desktop/Terminal_Based_File_Manager$ make, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g   -c -o src/main.o src/main.c, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g   -c -o src/file_operations.o src/file_operations.c, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g   -c -o src/directory_ops.o src/directory_ops.c, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g   -c -o src/permissions.o src/permissions.c, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g   -c -o src/logger.o src/logger.c, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: mkdir -p bin, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: gcc -Wall -g -o bin/file_manager src/main.o src/file_operations.o src/directory_ops.o src/permissions.o src/logger.o, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: okan-umur@okan-umur-VirtualBox:~/Desktop/Terminal_Based_File_Manager$ ./bin/file_manager, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Welcome to the Terminal File Manager!, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Type 'help' to see available commands., Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > help, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Available commands:, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   help                                 - Display this help message, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   slist <path>                         - List the contents of a directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   sremove <path>                       - Remove a file or directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   scopy <source> <destination>         - Copy a file from source to destination, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   sfile <path>                         - Show the content of a file, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   screate <path>                       - Create a directory at the specified path, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   ssearch <directory> <filename>       - Search for a file by name within a directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   schmod <path> <permissions>          - Modify a file or directory's permissions (e.g., rwxr-xr-x), Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   sremovedir <path>                    - Delete a directory that is empty, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   srename <old_path> <new_path>        - Rename a directory or file, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   screatefile <path>                   - Create a directory at the specified path, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path:   exit                                 - Exit the program, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > slist fortheerrorcheck , Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: opendir: No such file or directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > slist /home/okan-umur/Desktop/jdk-11.0.24, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Contents of directory: /home/okan-umur/Desktop/jdk-11.0.24, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: -------------------------------------------------, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Type	Size		Name, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: -------------------------------------------------, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		.., Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		conf, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		., Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: FILE	1314		release, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		include, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		jmods, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: FILE	160		README.html, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		man, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		bin, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		lib, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: DIR	4096		legal, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > sremove fortheerrorcheck, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Failed to remove file: No such file or directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > sremove /home/okan-umur/Desktop/Project Test, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Directory is not empty, cannot remove: /home/okan-umur/Desktop/Project Test, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > sremove /home/okan-umur/Desktop/For_The_Remove, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Directory removed successfully: /home/okan-umur/Desktop/For_The_Remove, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > scopy /home/okan-umur/Desktop/Copy Test /home/okan-umur/Desktop/Project Test/Test1, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Source Path: /home/okan-umur/Desktop/Copy, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Destination Path: Test /home/okan-umur/Desktop/Project Test/Test1, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Failed to open source file: No such file or directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > scopy /home/okan-umur/Desktop/Project Test /home/okan-umur/Desktop/jdk-11.0.24, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Source Path: /home/okan-umur/Desktop/Project, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Destination Path: Test /home/okan-umur/Desktop/jdk-11.0.24, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: Failed to open source file: No such file or directory, Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: > , Status: Error: Command not found
+[Sat Dec 28 14:22:23 2024] Operation: unknown, Path: , Status: Error: Command not found
+[Sat Dec 28 14:24:45 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:25:50 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:37:18 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:37:21 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:39:26 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:41:53 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:42:19 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:43:21 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:43:44 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:43:52 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:43:53 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:44:33 2024] Operation: scopy, Path: "/home/okan-umur/Desktop/Project, Status: Success
+[Sat Dec 28 14:44:35 2024] Operation: unknown, Path: clean, Status: Error: Command not found
+[Sat Dec 28 14:44:40 2024] Operation: unknown, Path: clear, Status: Error: Command not found
+[Sat Dec 28 14:45:31 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project_Test/sysprog_term_project_v3_2024_fall-1.pdf, Status: Success
+[Sat Dec 28 14:49:02 2024] Operation: exit, Path: N/A, Status: Success
+[Sat Dec 28 14:54:25 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 14:55:33 2024] Operation: scopy, Path: /home/okan-umur/Desktop/Project_Test/sysprog_term_project_v3_2024_fall-1.pdf, Status: Success
+[Sat Dec 28 14:59:56 2024] Operation: sfile, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 15:00:28 2024] Operation: sfile, Path: /home/okan-umur/Desktop/Project_Test/sysprog_term_project_v3_2024_fall-1.pdf, Status: Success
+[Sat Dec 28 15:05:56 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 15:06:31 2024] Operation: sfile, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 15:07:14 2024] Operation: sfile, Path: /home/okan-umur/Desktop/Project_Test/Sfile_Deneme.odt, Status: Success
+[Sat Dec 28 15:59:52 2024] Operation: exit, Path: N/A, Status: Success
+[Sat Dec 28 16:02:22 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 16:06:40 2024] Operation: sfile, Path: /home/okan-umur/Desktop/test_file.txt, Status: Success
+[Sat Dec 28 16:07:23 2024] Operation: sfile, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 16:10:01 2024] Operation: screate, Path: /home/okan-umur/Desktop/Project_Test/TestCreate, Status: Success
+[Sat Dec 28 16:10:01 2024] Operation: screate, Path: /home/okan-umur/Desktop/Project_Test/TestCreate, Status: Success
+[Sat Dec 28 16:12:49 2024] Operation: ssearch, Path: /home/okan-umur/Desktop/Project_Test/TestCreate, Status: Error: Invalid arguments
+[Sat Dec 28 16:14:27 2024] Operation: ssearch, Path: /home/okan-umur/Desktop/Project_Test/, Status: Success
+[Sat Dec 28 16:24:56 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test/sfile_Deneme, Status: Success
+[Sat Dec 28 16:25:14 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test/sfile_Deneme, Status: Success
+[Sat Dec 28 16:25:18 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test/sfile_Deneme, Status: Success
+[Sat Dec 28 16:26:16 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test/sfile_Deneme, Status: Success
+[Sat Dec 28 16:28:44 2024] Operation: exit, Path: N/A, Status: Success
+[Sat Dec 28 16:32:14 2024] Operation: help, Path: N/A, Status: Success
+[Sat Dec 28 16:32:55 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 16:33:48 2024] Operation: schmod, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 16:35:37 2024] Operation: sremove_dir, Path: /home/okan-umur/Desktop/Project_Test/For_Remove, Status: Success
+[Sat Dec 28 16:35:37 2024] Operation: sremovedir, Path: /home/okan-umur/Desktop/Project_Test/For_Remove, Status: Success
+[Sat Dec 28 17:03:41 2024] Operation: srename, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 17:03:41 2024] Operation: srename, Path: /home/okan-umur/Desktop/Project_Test, Status: Success
+[Sat Dec 28 17:13:33 2024] Operation: exit, Path: N/A, Status: Success
